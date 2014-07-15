@@ -1,0 +1,16 @@
+//SpitOutOntoConsole.h
+
+//Shannon Simpson
+//Shannon.Simpson@uky.edu
+//PA1
+
+#include <iostream>
+  #include <vector>
+    #include "XMLSerializable.h"
+
+    #ifndef _SpitOutOntoConsole_Included_
+    #define _SpitOutOntoConsole_Included_
+
+    void SpitOutOntoConsole(std::vector<XMLSerializable *> & vObjects);
+
+#endif

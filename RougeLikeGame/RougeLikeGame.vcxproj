@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EB8119F5-BD12-4584-A62D-FFE3ACC5FA77}</ProjectGuid>
+    <RootNamespace>RougeLikeGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Ammo.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="Consumable.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="CreatureFactory.cpp" />
+    <ClCompile Include="DungeonLevel.cpp" />
+    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="Gold.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="ItemFactory.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_cl.cpp" />
+    <ClCompile Include="main_console.cpp" />
+    <ClCompile Include="OutputXML.cpp" />
+    <ClCompile Include="parseElement.cpp" />
+    <ClCompile Include="parseXML.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Scroll.cpp" />
+    <ClCompile Include="SpellBook.cpp" />
+    <ClCompile Include="SpitOutOntoConsole.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="UnitTest.cpp" />
+    <ClCompile Include="Wand.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="XML Serialization.cpp" />
+    <ClCompile Include="XMLSerializable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ammo.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="Consumable.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="CreatureFactory.h" />
+    <ClInclude Include="DungeonLevel.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Food.h" />
+    <ClInclude Include="Gold.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="ItemFactory.h" />
+    <ClInclude Include="OutputXML.h" />
+    <ClInclude Include="parseElement.h" />
+    <ClInclude Include="parseXML.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="Scroll.h" />
+    <ClInclude Include="SpellBook.h" />
+    <ClInclude Include="SpitOutOntoConsole.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="UnitTest.h" />
+    <ClInclude Include="Wand.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="XMLSerializable.h" />
+    <ClInclude Include="XMLSerialization.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="critters.xml" />
+    <Xml Include="items.xml" />
+    <Xml Include="test.xml" />
+    <Xml Include="world.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="prog1cons.txt" />
+    <Text Include="test1.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

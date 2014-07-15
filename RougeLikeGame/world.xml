@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<World>
+  <Item>
+    <name>silver key</name>
+    <properties>
+      <property>metal</property>
+      <property>silver</property>
+    </properties>
+    <weight>1</weight>
+    <displayChar>)</displayChar>
+    <value>10</value>
+    <rarity>5</rarity>
+  </Item>
+
+  <Creature>
+    <name>orc</name>
+    <properties>
+      <property>orcish</property>
+      <property>humanoid</property>
+    </properties>
+    <level>2</level>
+    <maxHP>15</maxHP>
+    <displayChar>o</displayChar>
+  </Creature>
+
+</World>
+
+

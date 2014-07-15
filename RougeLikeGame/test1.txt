@@ -1,0 +1,46 @@
+//no doors
+
+This begins the main_cl.cpp file
+
+An XML Document was Successfully Loaded.
+World Loaded:
+
+Item: 
+Individual Name: silver key
+Properties: metal, silver, 
+Display Character: )
+Weight: 1
+Value: 10
+Rarity: 5
+Enchantment: 0
+Quantity: 0
+
+Creature: 
+Level: 2
+Max Hit Points: 15
+Inventory: 
+Individual Name: orc
+Properties: orcish, humanoid, 
+Display Character: o
+
+
+|-----------|                                                                  
+|...........|                                                                  
+|...........|                                                                  
+|...........|                                                                  
+|...........|                                           |------------|         
+|...........|                                           |............|         
+|...........| |----|                                    |............|         
+|...........| |....|                                    |............|         
+|...........| |....|                                    |............|         
+|...........| |....|                                    |............|         
+|-----------| |....|                                    |............|         
+              |....|                                    |............|         
+              |....|                                    |............|         
+              |....|                                    |............|         
+              |....|                                    |------------|         
+              |....|                                                           
+              |....|                                                           
+              |----|                                                           
+                                                                               
+                                                                               

@@ -1,0 +1,77 @@
+﻿Build started 7/15/2014 10:31:37 AM.
+     1>Project "C:\Users\Shan\Google Drive\Coding\RougeLikeGame\RougeLikeGame\RougeLikeGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Ammo.cpp Armor.cpp Consumable.cpp Creature.cpp CreatureFactory.cpp DungeonLevel.cpp Entity.cpp Food.cpp Gold.cpp Item.cpp ItemFactory.cpp main.cpp main_cl.cpp main_console.cpp OutputXML.cpp parseElement.cpp parseXML.cpp Player.cpp Potion.cpp Scroll.cpp SpellBook.cpp SpitOutOntoConsole.cpp Tile.cpp UnitTest.cpp Wand.cpp Weapon.cpp "XML Serialization.cpp" XMLSerializable.cpp
+         XMLSerializable.cpp
+         XML Serialization.cpp
+         Weapon.cpp
+         Wand.cpp
+         UnitTest.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\unittest.cpp(27): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\unittest.cpp(30): warning C4018: '>=' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\unittest.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\unittest.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+         Tile.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\tile.cpp(9): fatal error C1083: Cannot open include file: 'ncurses.h': No such file or directory
+         SpitOutOntoConsole.cpp
+         SpellBook.cpp
+         Scroll.cpp
+         Potion.cpp
+         Player.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\player.cpp(21): warning C4305: '=' : truncation from '__int64' to 'int'
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\player.cpp(21): warning C4309: '=' : truncation of constant value
+         parseXML.cpp
+         parseElement.cpp
+         OutputXML.cpp
+         main_console.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main_console.cpp(2): fatal error C1083: Cannot open include file: 'ncurses.h': No such file or directory
+         main_cl.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main_cl.cpp(2): fatal error C1083: Cannot open include file: 'ncurses.h': No such file or directory
+         main.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(74): error C2440: '=' : cannot convert from 'Entity *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(79): error C2440: '=' : cannot convert from 'Item *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(84): error C2440: '=' : cannot convert from 'Creature *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(89): error C2440: '=' : cannot convert from 'Weapon *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(94): error C2440: '=' : cannot convert from 'Armor *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(99): error C2440: '=' : cannot convert from 'Consumable *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(104): error C2440: '=' : cannot convert from 'Potion *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\main.cpp(109): error C2440: '=' : cannot convert from 'Scroll *' to 'XMLSerialization *'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         ItemFactory.cpp
+         Item.cpp
+         Gold.cpp
+         Generating Code...
+         Compiling...
+         Food.cpp
+         Entity.cpp
+         DungeonLevel.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(647): warning C4804: '>' : unsafe use of type 'bool' in operation
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(659): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(707): warning C4804: '>' : unsafe use of type 'bool' in operation
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(720): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(742): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(746): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(791): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\dungeonlevel.cpp(793): warning C4018: '<' : signed/unsigned mismatch
+         CreatureFactory.cpp
+         Creature.cpp
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\creature.cpp(115): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\creature.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\creature.cpp(159): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\shan\google drive\coding\rougelikegame\rougelikegame\creature.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+         Consumable.cpp
+         Armor.cpp
+         Ammo.cpp
+         Generating Code...
+     1>Done Building Project "C:\Users\Shan\Google Drive\Coding\RougeLikeGame\RougeLikeGame\RougeLikeGame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.96
